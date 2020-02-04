@@ -15,17 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/myTextView" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/myEditText"
-        android:hint="@string/edittext"
-        app:layout_constraintTop_toBottomOf="@+id/myTextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/myButton" />
+        app:layout_constraintTop_toTopOf="@id/myButton" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,7 +23,7 @@
         android:id="@+id/myButton"
         android:text="@string/clickme"
         android:textColor="@color/pink"
-        app:layout_constraintTop_toBottomOf="@+id/myEditText"
+        app:layout_constraintTop_toBottomOf="@+id/myTextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
